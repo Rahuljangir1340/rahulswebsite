@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .overlay{
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color:  rgba(0, 0, 0, 0.5); */
+            
+           }
+           p{
+            font-family: arial;
+           }
+           .modal{
+            background-color: white;
+            width: 430px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 5px;
+           }
+           .modal-title{
+            font-family: arial;
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 12px;
+           }
+           .modal-content{
+            font-family: arial;
+            margin-bottom: 12px;
+           }
+           .facebook-header{
+            display: flex;
+            background-color: white;
+            justify-content: space-between;
+            position: fixed;
+
+           }
+           .cat-image{
+            height: 30px;
+            width: 30px;
+            border-radius: 15px;
+            object-fit: cover;
+            object-position: center;
+           }
+           .name{
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 7px;
+            font-family: arial;
+            font-weight: bold;
+            margin-left: 3px;
+            font-size: 14px;
+           
+           }
+           .buttons{
+            margin-left: 260px;
+           }
+           .add-friend-button{
+            background-color: rgba(5, 5, 253, 0.555);
+            color: white;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 7px;
+            padding-right: 7px;
+            border-radius: 5px;
+            border: none;
+            font-weight: bold;
+            font-size: 13px;
+           }
+           .message-button{
+            background-color: rgb(236, 236, 236);
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 7px;
+            padding-right: 7px;
+            border-radius: 5px;
+            border: none;
+            font-weight: bold;
+            font-size: 13px;
+           }
+        </style>
+    </head>
+    <body style="
+    height: 3000px;
+    margin-left: 80px;
+    width: 1000px;
+    ">
+       <div style="
+       width: 100px;
+       position: fixed;
+       top: 0;
+       right: 0;
+       bottom: 0;
+       width: 100px;
+       background-color: green;
+       color: white;
+       
+
+
+
+       ">right sidebar</div>
+        <div style="
+           position: fixed;
+           bottom: 20px;
+           right: 20px;
+           background-color: black;
+           color: white;
+            ">bottom-right</div>
+            <div class="overlay">
+              <div class="modal">
+                <div class="modal-title">
+                    Modal Title
+                </div>
+                <div class="modal-content">
+                    This is a modal
+                </div>
+                <button>
+                    Close
+                </button>
+
+             </div>
+            </div>
+            <div>
+                
+            </div>
+            <div class="facebook-header">
+                <div class="account-info">
+                    <img class="cat-image" src="thumbnails/cat image.jpg">
+                    <div class="name">Oliver Cat </div>
+                </div>
+                <div class="buttons">
+                    <button class="add-friend-button">
+                        Add Friend
+                    </button>
+                    <button class="message-button">
+                        Message
+                    </button>
+                </div>
+
+            </div>
+
+    </body>
+</html>

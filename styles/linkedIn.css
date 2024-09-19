@@ -1,0 +1,48 @@
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: arial;
+ cursor: pointer;
+}
+.email-signup{
+  color: rgb(178, 152, 152);
+  font-family: arial;
+}
+.type-box{
+  height: 25px;
+  width: 300px;
+  border-color: rgb(95, 88, 88);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.disclaimer{
+  margin-top: 25px;
+}
+.agree-button{
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(11, 80, 255);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 95px;
+  padding-right: 95px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
+}
+.url{
+  margin-left: 30px;
+  border-radius: 100px;
+  border-color: rgba(198, 173, 173, 0.113);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 200px;
+  box-shadow:  1px 1px 1px rgb(203, 196, 196)
+}
+.image{
+  margin-left: 20px;
+  width: 100px;
+}

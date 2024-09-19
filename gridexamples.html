@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/nestedlayoutexample.css">
+        <style>
+            .grid-example{
+                display: grid;
+                grid-template-columns: 200px 75px;
+              
+                }
+                .grid-example1{
+                    background-color: aliceblue;
+                  }
+                  .grid-example2{
+                    background-color: rgba(255, 182, 193, 0.404);
+                  }
+                  .grid-example-a{
+                    padding-top: 50px;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr ;
+                    column-gap: 20px;
+                    row-gap: 10px;
+                  }
+                  .col-1{
+                    background-color: lightpink;
+                  }
+                  .col-2{
+                    background-color: lightpink;
+                    }
+                   .col-3{
+                    background-color: lightpink;
+                   }
+                   .col-4{
+                    background-color: lightpink;
+
+                   }
+        </style>
+    </head>
+    <body>
+        <div class="grid-example">
+            <div class="grid-example1">200px</div>
+            <div class="grid-example2" >75px</div>
+        </div>
+
+        <div class="grid-example-a">
+            <div class="col-1">col1</div>
+            <div class="col-2">col2</div>
+            <div class="col-3">col3</div>
+            <div class="col-4">col4</div>
+            <div class="col-1">col1</div>
+            <div class="col-2">col2</div>
+            <div class="col-3">col3</div>
+            <div class="col-4">col4</div>
+        </div>
+        
+        </div>
+
+    </body>
+</html>

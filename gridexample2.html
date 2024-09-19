@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <style>
+        p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: arial;
+}
+.layout-1{
+    border-style: solid;
+    width: 130px;
+   border-style: none;
+   box-shadow: 0 0 3px rgb(0, 0, 0, 0.6);
+   display: inline-block;
+ 
+}
+.cat-image{
+    width: 130px;
+    height: 110px;
+}
+.orange-screen{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    margin-left: 5px;
+}
+.layout-1-3-1{
+    display: inline-block;
+    margin-top: 5px;
+}
+.layout-1-3-2{
+    display: inline-block;
+   vertical-align: 5px;
+   margin-left: px;
+}
+.mutual-friends{
+    margin-bottom: 10px;
+   color: rgba(96, 96, 96, 0.623);
+    font-size: 13px;
+   }
+   .friend-button{
+    background-color: rgba(0, 0, 255, 0.644);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+   }
+   .layout-1-2{
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 13px;
+   }
+   .layout-2{
+    border-style: solid;
+    width: 130px;
+   border-style: none;
+   box-shadow: 0 0 3px rgb(0, 0, 0, 0.6);
+   
+   margin-left: 10px;
+   }
+   .layout-3{
+    border-style: solid;
+    width: 130px;
+   border-style: none;
+   box-shadow: 0 0 3px rgb(0, 0, 0, 0.6);
+   margin-left: 10px;
+
+   }
+   .grid{
+    display: grid;
+    grid-template-columns: 120px 130px 130px;
+    column-gap: 10px;
+    align-items: center;
+   }
+        
+       </style>
+
+    </head>
+    <body>
+        <div class="grid">
+            <div class="layout-1">
+                <div class="layout-1-1">
+                    <img class="cat-image" src="thumbnails/cat image.jpg">
+                </div>
+                <div class="layout-preview">
+                    <div class="layout-1-2">
+                        <p>Oliver</p>
+                    </div>
+                    <div class="layout-1-3">
+                        <div class="layout-1-3-1">
+                            <img class="orange-screen" src="thumbnails/orange-screen.jpg">
+                        </div>
+                        <div class="layout-1-3-2">
+                            <P class="mutual-friends">2 mutual friends</P>
+                        </div>
+                    </div>
+                 </div>
+                 <div layout-1-4>
+                    <button class="friend-button">Add Friend</button>
+                 </div>
+            
+            </div>
+            <div class="layout-2">
+                <div class="layout-1-1">
+                    <img class="cat-image" src="thumbnails/yellow cat.jpg">
+                </div>
+                <div class="layout-preview">
+                    <div class="layout-1-2">
+                        <p>Mimi</p>
+                    </div>
+                    <div class="layout-1-3">
+                        <div class="layout-1-3-1">
+                            <img class="orange-screen" src="thumbnails/orange-screen.jpg">
+                        </div>
+                        <div class="layout-1-3-2">
+                            <P class="mutual-friends">3 mutual friends</P>
+                        </div>
+                    </div>
+                 </div>
+                 <div layout-1-4>
+                    <button class="friend-button">Add Friend</button>
+                 </div>
+            
+            </div>
+            <div class="layout-3">
+                <div class="layout-1-1">
+                    <img class="cat-image" src="thumbnails/dog.jpg">
+                </div>
+                <div class="layout-preview">
+                    <div class="layout-1-2">
+                        <p>Rex</p>
+                    </div>
+                    <div class="layout-1-3">
+                        <div class="layout-1-3-1">
+                            <img class="orange-screen" src="thumbnails/orange-screen.jpg">
+                        </div>
+                        <div class="layout-1-3-2">
+                            <P class="mutual-friends">4 mutual friends</P>
+                        </div>
+                    </div>
+                 </div>
+                 <div layout-1-4>
+                    <button class="friend-button">Add Friend</button>
+                 </div>
+            
+        </div>
+       
+    </body>
+</html>

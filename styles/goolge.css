@@ -1,0 +1,56 @@
+p{
+  margin-left: 0;
+  margin-right: 0;
+  width: 0px;
+}
+
+
+.google-button{
+  display: inline-block block;
+  margin-top: 50px;
+  margin-left: 100px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 13px;
+  padding-right: 25px;
+  font-size: 17px;
+  border: none;
+  width: 200px;
+}
+.lucky-button{
+  display: inline-block;
+  margin-left: px;
+  margin-top: 50px;
+  margin-left: 100px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 13px;
+  padding-right: 25px;
+  font-size: 17px;
+  border: none;
+  width: 200px;
+
+}
+
+
+.textbox{
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: 0 1px 6px rgba(0 ,0, 0, 0.2);
+  margin-left: 50px;
+  display: block;
+}
+.google{
+ display: block;
+ width: 200px;
+ margin-left: 200px;
+ margin-bottom: 10px;
+ object-fit: cover;
+ object-position: center;
+}

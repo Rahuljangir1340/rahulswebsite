@@ -1,0 +1,51 @@
+div {
+    font-family: arial;
+ 
+}
+
+.sidebar-1{
+    background-color: rgb(33,33,33);
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.picture{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.sidebar-2{
+    background-color: rgb(55,55,55);
+    position: fixed;
+    left: 70px;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.name{
+    color: white;
+    font-size: 14px;
+}
+.create-new{
+    color: rgb(150,150,150);
+    font-size: 25px;
+}
+.channel{
+    color: rgb(150,150,150);
+    margin-bottom: 16px;
+}

@@ -1,0 +1,61 @@
+.design1{
+  margin-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 130px;
+  border-radius: 8px;
+  border-color: rgba(227, 217, 217, 0.71);
+  color: rgb(199, 188, 188);
+  font-size: 15px;
+  border-width: 1px;
+}
+.design2{
+  margin-left: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 130px;
+  border-radius: 8px;
+  border-color: rgba(227, 217, 217, 0.68);
+  color: rgb(199, 188, 188);
+  font-size: 15px;
+  border-width: 1px;
+}
+.design3{
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 130px;
+  border-radius: 8px;
+  border-color: rgba(227, 217, 217, 0.68);
+  color: rgb(199, 188, 188);
+  font-size: 15px;
+  border-width: 1px;
+  margin-top: 12px;
+  margin-left: 12px;
+  width: 288px;
+}
+.design4{
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 130px;
+  border-radius: 8px;
+  font-size: 18px;
+  border-width: 1px;
+  margin-top: 12px;
+  margin-left: 12px;
+  width: 310px;
+  background-color: rgba(6, 6, 254, 0.556);
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  }
